@@ -47,7 +47,8 @@
         "네이버 블로그": "^https?://blog\\.naver\\.com/\\w+/\\d+$",
         "메가파일": "^https?://www\\.megafile\\.co\\.kr/webhard/view_update\\.php\\?WriteNum=\\d+&fv=$",
         "티스토리": "^https?://\\w+\\.tistory\\.com/\\d+$",
-        "지니파일": "^https?://(?:www\\.)?geniefile\\.com/\\?idx=\\d+$"
+        "지니파일": "^https?://(?:www\\.)?geniefile\\.com/\\?idx=\\d+$",
+        "꿀파일": "^https?://ggulfile\\.com/\\content/\\view?no=\\d+$"
       },
       "MOBILE": {
         "파일이즈": "^https?://m\\.fileis\\.com/\\?doc=board_view&idx=\\d+$",
