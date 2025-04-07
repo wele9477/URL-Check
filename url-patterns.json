@@ -1,0 +1,25 @@
+{
+  "last_updated": "2023-08-21T10:30:00Z",
+  "version": "1.2.0",
+  "patterns": {
+    "PC": {
+      "파일이즈": "^https?://(?:www\\.)?fileis\\.com/contents/view\\.htm\\?idx=\\d+$",
+      "파일보고": "^https?://(?:www\\.)?filebogo\\.com/main/popup\\.php\\?doc=bbsInfo&idx=\\d+$",
+      "네이버 스마트스토어": "^https?://smartstore\\.naver\\.com/[\\w-]+/products/\\d+$"
+      // ... 기타 패턴들
+    },
+    "MOBILE": {
+      "파일이즈": "^https?://m\\.fileis\\.com/\\?doc=board_view&idx=\\d+$",
+      "파일보고": "^https?://m\\.filebogo\\.com/storage\\.php\\?act=view&idx=\\d+$"
+      // ... 기타 패턴들
+    },
+    "GENRES": {
+      "만화": {
+        "다음 카페": "^https?://cafe\\.daum\\.net/[\\w-]+/[\\w-]+/\\d+$"
+      },
+      "음악": {
+        "다음 카페": "^https?://cafe\\.daum\\.net/[\\w-]+/[\\w-]+/\\d+\\?svc=cafe"
+      }
+    }
+  }
+}
